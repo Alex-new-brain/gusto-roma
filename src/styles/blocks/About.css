@@ -10,9 +10,15 @@
 
 .about-photo {
   width: 100%;
-  height: 55vh;
+  height: 60vh;
   object-fit: cover;
   display: block;
+}
+
+@media (min-width: 1200px) {
+  .about-photo {
+    height: 70vh;
+  }
 }
 
 /* First photo (behind the bar) — show face and hands. */
@@ -22,7 +28,13 @@
 
 /* Second photo (at the fountain) — show both people centered. */
 .about-photo-wrapper:last-child .about-photo {
-  object-position: center 20%;
+  object-position: center 25%;
+}
+
+@media (min-width: 1200px) {
+  .about-photo-wrapper:last-child .about-photo {
+    object-position: center 20%;
+  }
 }
 
 .about-photo-overlay {
@@ -108,7 +120,7 @@
 
 @media (max-width: 768px) {
   .about-photo {
-    height: 45vh;
+    height: 50vh;
   }
 
   .about-content {
