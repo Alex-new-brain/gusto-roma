@@ -1,0 +1,2159 @@
+{
+  "meta": {
+    "title": {
+      "en": "Roma, After Dark",
+      "ru": "Рим после заката"
+    },
+    "subtitle": {
+      "en": "A personal guide to eating, drinking & experiencing Rome.",
+      "ru": "Личный гид по еде, напиткам и жизни Рима."
+    },
+    "curator": {
+      "name": "Eugene",
+      "role": {
+        "en": "Bartender · Hospitality · Rome",
+        "ru": "Бармен · Hospitality · Рим"
+      },
+      "photo": null
+    },
+    "totalVenues": 95,
+    "lastUpdated": "2026-09"
+  },
+  "collections": [
+    {
+      "id": "eat",
+      "name": {
+        "en": "Eat",
+        "ru": "Еда"
+      },
+      "fullName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "tagline": {
+        "en": "From Roman classics to places worth crossing the city for.",
+        "ru": "От римской классики до мест, ради которых стоит пересечь весь город."
+      },
+      "number": "01",
+      "icon": "🍝"
+    },
+    {
+      "id": "hidden",
+      "name": {
+        "en": "Hidden",
+        "ru": "Секретные"
+      },
+      "fullName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "tagline": {
+        "en": "Doors you might walk past. Places you won't find by accident.",
+        "ru": "Двери, мимо которых можно пройти. Места, которые случайно не найдёшь."
+      },
+      "number": "02",
+      "icon": "🍸"
+    },
+    {
+      "id": "drink",
+      "name": {
+        "en": "Drink",
+        "ru": "Напитки"
+      },
+      "fullName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "tagline": {
+        "en": "Aperitivo, rooftops, sunsets and late-night drinks.",
+        "ru": "Аперитиво, крыши, закаты и напитки до поздней ночи."
+      },
+      "number": "03",
+      "icon": "🌇"
+    },
+    {
+      "id": "feel",
+      "name": {
+        "en": "Feel",
+        "ru": "Атмосфера"
+      },
+      "fullName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "tagline": {
+        "en": "Places for when you want to experience Rome beyond food and drinks.",
+        "ru": "Места для тех случаев, когда хочется увидеть Рим за пределами еды и напитков."
+      },
+      "number": "04",
+      "icon": "🎵"
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "name": "The Vista Rooftop Roma | Pantheon Terrace Bar & Restaurant",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.5,
+      "reviews": 763,
+      "priceRange": "20–70 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "The Vista Rooftop Roma | Pantheon Terrace Bar & Restaurant, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/The+Vista+Rooftop+Roma+|+Pantheon+Terrace+Bar+&+Restaurant,+Rome,+Italy"
+    },
+    {
+      "id": 2,
+      "name": "Terrazza delle 5 lune",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.4,
+      "reviews": 692,
+      "priceRange": "20–60 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Terrazza delle 5 lune, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Terrazza+delle+5+lune,+Rome,+Italy"
+    },
+    {
+      "id": 3,
+      "name": "Fraschetta la Romanella",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.3,
+      "reviews": 3405,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Fraschetta la Romanella, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Fraschetta+la+Romanella,+Rome,+Italy"
+    },
+    {
+      "id": 4,
+      "name": "Café Ginori",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.6,
+      "reviews": 123,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Café Ginori, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Café+Ginori,+Rome,+Italy"
+    },
+    {
+      "id": 5,
+      "name": "Birretta Wine and Food",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Burgers",
+        "ru": "Бургеры"
+      },
+      "rating": 4.3,
+      "reviews": 3254,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Birretta Wine and Food, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Birretta+Wine+and+Food,+Rome,+Italy"
+    },
+    {
+      "id": 6,
+      "name": "La Tavernetta 29 da Tony e Andrea",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.4,
+      "reviews": 6624,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "La Tavernetta 29 da Tony e Andrea, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/La+Tavernetta+29+da+Tony+e+Andrea,+Rome,+Italy"
+    },
+    {
+      "id": 7,
+      "name": "Sugo Trattoria",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.3,
+      "reviews": 1994,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Sugo Trattoria, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Sugo+Trattoria,+Rome,+Italy"
+    },
+    {
+      "id": 8,
+      "name": "Fraschetteria Ai Tre Archi",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.3,
+      "reviews": 2145,
+      "priceRange": "30–40 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Fraschetteria Ai Tre Archi, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Fraschetteria+Ai+Tre+Archi,+Rome,+Italy"
+    },
+    {
+      "id": 9,
+      "name": "Kebabone",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Kebab",
+        "ru": "Кебаб"
+      },
+      "rating": 4.1,
+      "reviews": 1386,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Kebabone, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Kebabone,+Rome,+Italy"
+    },
+    {
+      "id": 10,
+      "name": "'O Famo Strano",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Sandwiches",
+        "ru": "Сэндвичи"
+      },
+      "rating": 4.6,
+      "reviews": 820,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "'O Famo Strano, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/'O+Famo+Strano,+Rome,+Italy"
+    },
+    {
+      "id": 11,
+      "name": "Ciro Kebab",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Kebab",
+        "ru": "Кебаб"
+      },
+      "rating": 4.5,
+      "reviews": 3043,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ciro Kebab, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ciro+Kebab,+Rome,+Italy"
+    },
+    {
+      "id": 12,
+      "name": "I Vaccinari | Ristorante Pizzeria Rione Monti",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.8,
+      "reviews": 6149,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "I Vaccinari | Ristorante Pizzeria Rione Monti, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/I+Vaccinari+|+Ristorante+Pizzeria+Rione+Monti,+Rome,+Italy"
+    },
+    {
+      "id": 13,
+      "name": "ROYALBEEF x SPLENDORI PIZZA",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Pizza",
+        "ru": "Пицца"
+      },
+      "rating": 4.3,
+      "reviews": 394,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "ROYALBEEF x SPLENDORI PIZZA, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/ROYALBEEF+x+SPLENDORI+PIZZA,+Rome,+Italy"
+    },
+    {
+      "id": 14,
+      "name": "Notramè Bistrot",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.9,
+      "reviews": 103,
+      "priceRange": "40–50 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Notramè Bistrot, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Notramè+Bistrot,+Rome,+Italy"
+    },
+    {
+      "id": 15,
+      "name": "La Matriciana dal 1870",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.3,
+      "reviews": 2692,
+      "priceRange": "20–60 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "La Matriciana dal 1870, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/La+Matriciana+dal+1870,+Rome,+Italy"
+    },
+    {
+      "id": 16,
+      "name": "MISALE",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.9,
+      "reviews": 148,
+      "priceRange": "30–60 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "MISALE, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/MISALE,+Rome,+Italy"
+    },
+    {
+      "id": 17,
+      "name": "Deroma - Farine Romane",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.5,
+      "reviews": 4565,
+      "priceRange": "10–50 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Deroma - Farine Romane, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Deroma+-+Farine+Romane,+Rome,+Italy"
+    },
+    {
+      "id": 18,
+      "name": "EOS - The Sushi Temple by Domò",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Sushi",
+        "ru": "Суши"
+      },
+      "rating": 4.4,
+      "reviews": 3496,
+      "priceRange": "30–40 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "EOS - The Sushi Temple by Domò, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/EOS+-+The+Sushi+Temple+by+Domò,+Rome,+Italy"
+    },
+    {
+      "id": 19,
+      "name": "Ristorante L'Allegro",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.5,
+      "reviews": 316,
+      "priceRange": "40–70 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ristorante L'Allegro, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ristorante+L'Allegro,+Rome,+Italy"
+    },
+    {
+      "id": 20,
+      "name": "Cresci",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.4,
+      "reviews": 2421,
+      "priceRange": "10–30 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Cresci, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Cresci,+Rome,+Italy"
+    },
+    {
+      "id": 21,
+      "name": "Phở Việt - Tuscolana",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Vietnamese",
+        "ru": "Вьетнамская"
+      },
+      "rating": 4.6,
+      "reviews": 192,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Phở Việt - Tuscolana, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Phở+Việt+-+Tuscolana,+Rome,+Italy"
+    },
+    {
+      "id": 22,
+      "name": "Salsa y sabor. ristorante etnico peruviano",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Peruvian",
+        "ru": "Перуанская"
+      },
+      "rating": 4.3,
+      "reviews": 483,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Salsa y sabor. ristorante etnico peruviano, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Salsa+y+sabor.+ristorante+etnico+peruviano,+Rome,+Italy"
+    },
+    {
+      "id": 23,
+      "name": "La Zanzara",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Bistro",
+        "ru": "Бистро"
+      },
+      "rating": 4.1,
+      "reviews": 4723,
+      "priceRange": "20–60 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "La Zanzara, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/La+Zanzara,+Rome,+Italy"
+    },
+    {
+      "id": 24,
+      "name": "Ristorante La Querida",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.6,
+      "reviews": 2380,
+      "priceRange": "30–50 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ristorante La Querida, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ristorante+La+Querida,+Rome,+Italy"
+    },
+    {
+      "id": 25,
+      "name": "BALAGAN",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 3.6,
+      "reviews": 315,
+      "priceRange": "20–70 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "BALAGAN, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/BALAGAN,+Rome,+Italy"
+    },
+    {
+      "id": 26,
+      "name": "Alma Criolla",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Peruvian",
+        "ru": "Перуанская"
+      },
+      "rating": 4.4,
+      "reviews": 603,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Alma Criolla, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Alma+Criolla,+Rome,+Italy"
+    },
+    {
+      "id": 27,
+      "name": "Ristorante La Villetta dal 1940",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.4,
+      "reviews": 6078,
+      "priceRange": "30–40 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ristorante La Villetta dal 1940, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ristorante+La+Villetta+dal+1940,+Rome,+Italy"
+    },
+    {
+      "id": 28,
+      "name": "Johnny's Offlicense",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Wine Shop",
+        "ru": "Винный магазин"
+      },
+      "rating": 4.9,
+      "reviews": 290,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Johnny's Offlicense, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Johnny's+Offlicense,+Rome,+Italy"
+    },
+    {
+      "id": 29,
+      "name": "CULT Burger Restaurant",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Burgers",
+        "ru": "Бургеры"
+      },
+      "rating": 4.6,
+      "reviews": 1207,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "CULT Burger Restaurant, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/CULT+Burger+Restaurant,+Rome,+Italy"
+    },
+    {
+      "id": 30,
+      "name": "Faro - Caffè Specialty",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Coffee",
+        "ru": "Кофе"
+      },
+      "rating": 4.5,
+      "reviews": 3779,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Faro - Caffè Specialty, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Faro+-+Caffè+Specialty,+Rome,+Italy"
+    },
+    {
+      "id": 31,
+      "name": "Osteria Bonelli",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.5,
+      "reviews": 6820,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Osteria Bonelli, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Osteria+Bonelli,+Rome,+Italy"
+    },
+    {
+      "id": 32,
+      "name": "SantoPalato",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.3,
+      "reviews": 1603,
+      "priceRange": "30–50 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "SantoPalato, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/SantoPalato,+Rome,+Italy"
+    },
+    {
+      "id": 33,
+      "name": "Spaghetto Roma",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.5,
+      "reviews": 969,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Spaghetto Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Spaghetto+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 34,
+      "name": "Da Robertino",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.1,
+      "reviews": 2403,
+      "priceRange": "20–40 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Da Robertino, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Da+Robertino,+Rome,+Italy"
+    },
+    {
+      "id": 35,
+      "name": "MACCARONE Il Pastificio [Scrofa]",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.6,
+      "reviews": 472,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "MACCARONE Il Pastificio [Scrofa], Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/MACCARONE+Il+Pastificio+[Scrofa],+Rome,+Italy"
+    },
+    {
+      "id": 36,
+      "name": "MACCARONE Il Pastificio [Pellegrino]",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.6,
+      "reviews": 1933,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "MACCARONE Il Pastificio [Pellegrino], Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/MACCARONE+Il+Pastificio+[Pellegrino],+Rome,+Italy"
+    },
+    {
+      "id": 37,
+      "name": "JiaMo Lab",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Chinese",
+        "ru": "Китайская"
+      },
+      "rating": 4.9,
+      "reviews": 2094,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "JiaMo Lab, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/JiaMo+Lab,+Rome,+Italy"
+    },
+    {
+      "id": 38,
+      "name": "Pastificio Guerra",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Pasta",
+        "ru": "Паста"
+      },
+      "rating": 4.3,
+      "reviews": 4897,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Pastificio Guerra, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Pastificio+Guerra,+Rome,+Italy"
+    },
+    {
+      "id": 39,
+      "name": "LUNA by Faro - Caffè Specialty",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Coffee",
+        "ru": "Кофе"
+      },
+      "rating": 4.5,
+      "reviews": 1046,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "LUNA by Faro - Caffè Specialty, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/LUNA+by+Faro+-+Caffè+Specialty,+Rome,+Italy"
+    },
+    {
+      "id": 40,
+      "name": "Tuk Tuk - Garbatella",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Thai",
+        "ru": "Тайская"
+      },
+      "rating": 4.3,
+      "reviews": 913,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Tuk Tuk - Garbatella, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Tuk+Tuk+-+Garbatella,+Rome,+Italy"
+    },
+    {
+      "id": 41,
+      "name": "Tuk Tuk - Porta Portese",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Thai",
+        "ru": "Тайская"
+      },
+      "rating": 4.4,
+      "reviews": 118,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Tuk Tuk - Porta Portese, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Tuk+Tuk+-+Porta+Portese,+Rome,+Italy"
+    },
+    {
+      "id": 42,
+      "name": "Bussarakham",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Thai",
+        "ru": "Тайская"
+      },
+      "rating": 4.5,
+      "reviews": 631,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Bussarakham, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Bussarakham,+Rome,+Italy"
+    },
+    {
+      "id": 43,
+      "name": "Buseto",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Bistro",
+        "ru": "Бистро"
+      },
+      "rating": 4.7,
+      "reviews": 503,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Buseto, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Buseto,+Rome,+Italy"
+    },
+    {
+      "id": 44,
+      "name": "Banana Republic Roma",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.5,
+      "reviews": 906,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Banana Republic Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Banana+Republic+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 45,
+      "name": "La Ménagère",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.0,
+      "reviews": 625,
+      "priceRange": "10–70 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "La Ménagère, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/La+Ménagère,+Rome,+Italy"
+    },
+    {
+      "id": 46,
+      "name": "Osteria da Zi Umberto",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.5,
+      "reviews": 2879,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Osteria da Zi Umberto, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Osteria+da+Zi+Umberto,+Rome,+Italy"
+    },
+    {
+      "id": 47,
+      "name": "Testaccio Market",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Market",
+        "ru": "Рынок"
+      },
+      "rating": 4.4,
+      "reviews": 8883,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Testaccio Market, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Testaccio+Market,+Rome,+Italy"
+    },
+    {
+      "id": 48,
+      "name": "Felice a Testaccio | ROMA",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.3,
+      "reviews": 9286,
+      "priceRange": "20–40 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Felice a Testaccio | ROMA, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Felice+a+Testaccio+|+ROMA,+Rome,+Italy"
+    },
+    {
+      "id": 49,
+      "name": "Ristorante la Campana",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Roman",
+        "ru": "Римская кухня"
+      },
+      "rating": 4.3,
+      "reviews": 1999,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ristorante la Campana, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ristorante+la+Campana,+Rome,+Italy"
+    },
+    {
+      "id": 50,
+      "name": "Ristorante Il Tino",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Fine Dining",
+        "ru": "Высокая кухня"
+      },
+      "rating": 4.6,
+      "reviews": 584,
+      "priceRange": "100+ €",
+      "priceLevel": 4,
+      "priceBadge": "€€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ristorante Il Tino, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ristorante+Il+Tino,+Rome,+Italy"
+    },
+    {
+      "id": 51,
+      "name": "Zuma Rome",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Japanese",
+        "ru": "Японская"
+      },
+      "rating": 4.4,
+      "reviews": 5022,
+      "priceRange": "100+ €",
+      "priceLevel": 4,
+      "priceBadge": "€€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Zuma Rome, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Zuma+Rome,+Rome,+Italy"
+    },
+    {
+      "id": 52,
+      "name": "Baccano",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Mediterranean",
+        "ru": "Средиземноморская"
+      },
+      "rating": 4.1,
+      "reviews": 4137,
+      "priceRange": "30–80 €",
+      "priceLevel": 3,
+      "priceBadge": "€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Baccano, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Baccano,+Rome,+Italy"
+    },
+    {
+      "id": 53,
+      "name": "Frumentario",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Pizza",
+        "ru": "Пицца"
+      },
+      "rating": 4.8,
+      "reviews": 664,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Frumentario, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Frumentario,+Rome,+Italy"
+    },
+    {
+      "id": 54,
+      "name": "Bitterino",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.6,
+      "reviews": 79,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Bitterino, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Bitterino,+Rome,+Italy"
+    },
+    {
+      "id": 55,
+      "name": "Coffee Pot Trastevere",
+      "collection": "eat",
+      "collectionName": {
+        "en": "Food Spots & Restaurants",
+        "ru": "Рестораны и кафе"
+      },
+      "cuisine": {
+        "en": "Sushi",
+        "ru": "Суши"
+      },
+      "rating": 3.9,
+      "reviews": 1067,
+      "priceRange": "10–50 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Coffee Pot Trastevere, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Coffee+Pot+Trastevere,+Rome,+Italy"
+    },
+    {
+      "id": 56,
+      "name": "Bar San Calisto",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "rating": 4.5,
+      "reviews": 5574,
+      "priceRange": "1–10 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Bar San Calisto, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Bar+San+Calisto,+Rome,+Italy"
+    },
+    {
+      "id": 57,
+      "name": "Vicino Enoteca",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Wine Bar",
+        "ru": "Винный бар"
+      },
+      "rating": 4.4,
+      "reviews": 405,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Vicino Enoteca, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Vicino+Enoteca,+Rome,+Italy"
+    },
+    {
+      "id": 58,
+      "name": "Ex Galleria",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.6,
+      "reviews": 542,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Ex Galleria, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Ex+Galleria,+Rome,+Italy"
+    },
+    {
+      "id": 59,
+      "name": "Blackmarket Hall - Rione Monti",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.5,
+      "reviews": 3592,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Blackmarket Hall - Rione Monti, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Blackmarket+Hall+-+Rione+Monti,+Rome,+Italy"
+    },
+    {
+      "id": 60,
+      "name": "La Punta Expendio de Agave",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Mexican",
+        "ru": "Мексиканская"
+      },
+      "rating": 4.5,
+      "reviews": 943,
+      "priceRange": "10–30 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "La Punta Expendio de Agave, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/La+Punta+Expendio+de+Agave,+Rome,+Italy"
+    },
+    {
+      "id": 61,
+      "name": "Blind Pig",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.6,
+      "reviews": 692,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Blind Pig, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Blind+Pig,+Rome,+Italy"
+    },
+    {
+      "id": 62,
+      "name": "JIGGER -Cocktail Bar & Food-",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.7,
+      "reviews": 336,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "JIGGER -Cocktail Bar & Food-, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/JIGGER+-Cocktail+Bar+&+Food-,+Rome,+Italy"
+    },
+    {
+      "id": 63,
+      "name": "Wisdomless Club",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.6,
+      "reviews": 675,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Wisdomless Club, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Wisdomless+Club,+Rome,+Italy"
+    },
+    {
+      "id": 64,
+      "name": "Club Derrière",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "rating": 4.4,
+      "reviews": 802,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Club Derrière, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Club+Derrière,+Rome,+Italy"
+    },
+    {
+      "id": 65,
+      "name": "FRENI E FRIZIONI",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.2,
+      "reviews": 4370,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "FRENI E FRIZIONI, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/FRENI+E+FRIZIONI,+Rome,+Italy"
+    },
+    {
+      "id": 66,
+      "name": "Jerry Thomas Bar Room",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "rating": 4.9,
+      "reviews": 373,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Jerry Thomas Bar Room, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Jerry+Thomas+Bar+Room,+Rome,+Italy"
+    },
+    {
+      "id": 67,
+      "name": "Jerry Thomas Speakeasy",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "rating": 4.5,
+      "reviews": 1764,
+      "priceRange": "20–50 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Jerry Thomas Speakeasy, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Jerry+Thomas+Speakeasy,+Rome,+Italy"
+    },
+    {
+      "id": 68,
+      "name": "Drop",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.8,
+      "reviews": 528,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Drop, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Drop,+Rome,+Italy"
+    },
+    {
+      "id": 69,
+      "name": "The Barber Shop",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.6,
+      "reviews": 466,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "The Barber Shop, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/The+Barber+Shop,+Rome,+Italy"
+    },
+    {
+      "id": 70,
+      "name": "Drink Kong",
+      "collection": "hidden",
+      "collectionName": {
+        "en": "Cocktail Bars & Speakeasy",
+        "ru": "Коктейль-бары и спикизи"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.3,
+      "reviews": 2353,
+      "priceRange": "10–30 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Drink Kong, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Drink+Kong,+Rome,+Italy"
+    },
+    {
+      "id": 71,
+      "name": "Citrico Rooftop - Pizza e Cocktail",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Pizza",
+        "ru": "Пицца"
+      },
+      "rating": 4.3,
+      "reviews": 119,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Citrico Rooftop - Pizza e Cocktail, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Citrico+Rooftop+-+Pizza+e+Cocktail,+Rome,+Italy"
+    },
+    {
+      "id": 72,
+      "name": "Orient Express La Minerva",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "5-Star Hotel",
+        "ru": "5-звёздочный отель"
+      },
+      "rating": 4.5,
+      "reviews": 601,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Orient Express La Minerva, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Orient+Express+La+Minerva,+Rome,+Italy"
+    },
+    {
+      "id": 73,
+      "name": "Terrazza Borromini",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.2,
+      "reviews": 1326,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Terrazza Borromini, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Terrazza+Borromini,+Rome,+Italy"
+    },
+    {
+      "id": 74,
+      "name": "Le Jardin",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Italian",
+        "ru": "Итальянская"
+      },
+      "rating": 4.5,
+      "reviews": 1181,
+      "priceRange": "100+ €",
+      "priceLevel": 4,
+      "priceBadge": "€€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Le Jardin, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Le+Jardin,+Rome,+Italy"
+    },
+    {
+      "id": 75,
+      "name": "hotel minerva rome rooftop bar",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "rating": 4.2,
+      "reviews": 322,
+      "priceRange": "20–70 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "hotel minerva rome rooftop bar, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/hotel+minerva+rome+rooftop+bar,+Rome,+Italy"
+    },
+    {
+      "id": 76,
+      "name": "Oro Bistrot",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.4,
+      "reviews": 2324,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Oro Bistrot, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Oro+Bistrot,+Rome,+Italy"
+    },
+    {
+      "id": 77,
+      "name": "Grand Hotel Plaza",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "5-Star Hotel",
+        "ru": "5-звёздочный отель"
+      },
+      "rating": 4.0,
+      "reviews": 1160,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Grand Hotel Plaza, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Grand+Hotel+Plaza,+Rome,+Italy"
+    },
+    {
+      "id": 78,
+      "name": "Il Bar della Musa",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 4.3,
+      "reviews": 387,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Il Bar della Musa, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Il+Bar+della+Musa,+Rome,+Italy"
+    },
+    {
+      "id": 79,
+      "name": "MAIO Restaurant & Rooftop Roma",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.0,
+      "reviews": 605,
+      "priceRange": "20–60 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "MAIO Restaurant & Rooftop Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/MAIO+Restaurant+&+Rooftop+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 80,
+      "name": "Six Senses Rome",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "5-Star Hotel",
+        "ru": "5-звёздочный отель"
+      },
+      "rating": 4.6,
+      "reviews": 477,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Six Senses Rome, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Six+Senses+Rome,+Rome,+Italy"
+    },
+    {
+      "id": 81,
+      "name": "Hotel Hassler Roma",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "5-Star Hotel",
+        "ru": "5-звёздочный отель"
+      },
+      "rating": 4.8,
+      "reviews": 1164,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Hotel Hassler Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Hotel+Hassler+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 82,
+      "name": "RoofTop Lounge Trevi",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Cocktail Bar",
+        "ru": "Коктейль-бар"
+      },
+      "rating": 3.1,
+      "reviews": 497,
+      "priceRange": "20–30 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "RoofTop Lounge Trevi, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/RoofTop+Lounge+Trevi,+Rome,+Italy"
+    },
+    {
+      "id": 83,
+      "name": "W Rome",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Hotel",
+        "ru": "Отель"
+      },
+      "rating": 4.6,
+      "reviews": 729,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "W Rome, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/W+Rome,+Rome,+Italy"
+    },
+    {
+      "id": 84,
+      "name": "AcquaRoof Terrazza Molinari, Bistrot di mare",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.5,
+      "reviews": 704,
+      "priceRange": "40–100 €",
+      "priceLevel": 4,
+      "priceBadge": "€€€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "AcquaRoof Terrazza Molinari, Bistrot di mare, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/AcquaRoof+Terrazza+Molinari,+Bistrot+di+mare,+Rome,+Italy"
+    },
+    {
+      "id": 85,
+      "name": "Alto",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "Restaurant",
+        "ru": "Ресторан"
+      },
+      "rating": 4.3,
+      "reviews": 317,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Alto, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Alto,+Rome,+Italy"
+    },
+    {
+      "id": 86,
+      "name": "9Hotel Cesàri",
+      "collection": "drink",
+      "collectionName": {
+        "en": "Hotel Bars & Rooftops",
+        "ru": "Бары при отелях и террасы"
+      },
+      "cuisine": {
+        "en": "4-Star Hotel",
+        "ru": "4-звёздочный отель"
+      },
+      "rating": 4.3,
+      "reviews": 934,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "9Hotel Cesàri, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/9Hotel+Cesàri,+Rome,+Italy"
+    },
+    {
+      "id": 87,
+      "name": "Neo Club Roma",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Dance Club",
+        "ru": "Танцевальный клуб"
+      },
+      "rating": 4.4,
+      "reviews": 222,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Neo Club Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Neo+Club+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 88,
+      "name": "Forte Antenne",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Landmark",
+        "ru": "Достопримечательность"
+      },
+      "rating": 4.0,
+      "reviews": 488,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Forte Antenne, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Forte+Antenne,+Rome,+Italy"
+    },
+    {
+      "id": 89,
+      "name": "Cieloterra Roma",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Nightclub",
+        "ru": "Ночной клуб"
+      },
+      "rating": 3.3,
+      "reviews": 270,
+      "priceRange": "10–20 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Cieloterra Roma, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Cieloterra+Roma,+Rome,+Italy"
+    },
+    {
+      "id": 90,
+      "name": "Circolo Degli Illuminati",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Временно закрыт",
+        "ru": "Временно закрыт"
+      },
+      "rating": 3.6,
+      "reviews": 2145,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": true,
+      "googleMapsQuery": "Circolo Degli Illuminati, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Circolo+Degli+Illuminati,+Rome,+Italy"
+    },
+    {
+      "id": 91,
+      "name": "Campo magnetico",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Cultural Center",
+        "ru": "Культурный центр"
+      },
+      "rating": 3.9,
+      "reviews": 46,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Campo magnetico, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Campo+magnetico,+Rome,+Italy"
+    },
+    {
+      "id": 92,
+      "name": "Zalib - Circolo Arci",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Cultural Center",
+        "ru": "Культурный центр"
+      },
+      "rating": 4.7,
+      "reviews": 479,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Zalib - Circolo Arci, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Zalib+-+Circolo+Arci,+Rome,+Italy"
+    },
+    {
+      "id": 93,
+      "name": "THE MAGICK BAR",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Nightclub",
+        "ru": "Ночной клуб"
+      },
+      "rating": 3.9,
+      "reviews": 959,
+      "priceRange": "10–30 €",
+      "priceLevel": 1,
+      "priceBadge": "€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "THE MAGICK BAR, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/THE+MAGICK+BAR,+Rome,+Italy"
+    },
+    {
+      "id": 94,
+      "name": "Soap House - Ex Saponerie Mira Lanza",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Disco",
+        "ru": "Дискотека"
+      },
+      "rating": 2.7,
+      "reviews": 18,
+      "priceRange": "20–50 €",
+      "priceLevel": 2,
+      "priceBadge": "€€",
+      "temporarilyClosed": false,
+      "googleMapsQuery": "Soap House - Ex Saponerie Mira Lanza, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Soap+House+-+Ex+Saponerie+Mira+Lanza,+Rome,+Italy"
+    },
+    {
+      "id": 95,
+      "name": "Room 26",
+      "collection": "feel",
+      "collectionName": {
+        "en": "Music & Cultural Activities",
+        "ru": "Музыка и культура"
+      },
+      "cuisine": {
+        "en": "Временно закрыт",
+        "ru": "Временно закрыт"
+      },
+      "rating": 3.9,
+      "reviews": 1571,
+      "priceRange": null,
+      "priceLevel": null,
+      "priceBadge": null,
+      "temporarilyClosed": true,
+      "googleMapsQuery": "Room 26, Rome, Italy",
+      "googleMapsUrl": "https://www.google.com/maps/search/Room+26,+Rome,+Italy"
+    }
+  ],
+  "filters": {
+    "cuisines": [
+      "4-Star Hotel",
+      "5-Star Hotel",
+      "Bar",
+      "Bistro",
+      "Burgers",
+      "Chinese",
+      "Cocktail Bar",
+      "Coffee",
+      "Cultural Center",
+      "Dance Club",
+      "Disco",
+      "Fine Dining",
+      "Hotel",
+      "Italian",
+      "Japanese",
+      "Kebab",
+      "Landmark",
+      "Market",
+      "Mediterranean",
+      "Mexican",
+      "Nightclub",
+      "Pasta",
+      "Peruvian",
+      "Pizza",
+      "Restaurant",
+      "Roman",
+      "Sandwiches",
+      "Sushi",
+      "Thai",
+      "Vietnamese",
+      "Wine Bar",
+      "Wine Shop"
+    ],
+    "priceLevels": [
+      {
+        "level": 1,
+        "label": "€",
+        "description": {
+          "en": "Budget-friendly",
+          "ru": "Бюджетно"
+        }
+      },
+      {
+        "level": 2,
+        "label": "€€",
+        "description": {
+          "en": "Moderate",
+          "ru": "Средне"
+        }
+      },
+      {
+        "level": 3,
+        "label": "€€€",
+        "description": {
+          "en": "Upscale",
+          "ru": "Дорого"
+        }
+      },
+      {
+        "level": 4,
+        "label": "€€€€",
+        "description": {
+          "en": "Luxury",
+          "ru": "Премиум"
+        }
+      }
+    ]
+  }
+}

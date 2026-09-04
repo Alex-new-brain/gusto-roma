@@ -1,0 +1,142 @@
+.venue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.venue-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.venue-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(44, 24, 16, 0.08);
+}
+
+.venue-card__closed {
+  align-self: flex-start;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 4px 10px;
+}
+
+.venue-card__name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--text);
+}
+
+.venue-card__meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.venue-badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.venue-badge--eat {
+  background: rgba(122, 123, 66, 0.12);
+  color: var(--color-eat);
+}
+
+.venue-badge--hidden {
+  background: rgba(201, 160, 67, 0.15);
+  color: var(--color-hidden-text);
+}
+
+.venue-badge--drink {
+  background: rgba(184, 204, 197, 0.2);
+  color: var(--color-drink-text);
+}
+
+.venue-badge--feel {
+  background: rgba(158, 75, 50, 0.12);
+  color: var(--color-feel);
+}
+
+.venue-card__price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.venue-card__price-range {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+.venue-card__price-level {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--gold);
+}
+
+.venue-card__rating-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.venue-card__rating-value {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.venue-card__reviews {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+.venue-card__footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.venue-card__maps-btn {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 12px;
+  padding: 9px 18px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.venue-card__maps-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}

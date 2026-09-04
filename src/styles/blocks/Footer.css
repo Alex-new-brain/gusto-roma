@@ -1,0 +1,83 @@
+.footer {
+  background: var(--text);
+  color: var(--text-on-color);
+  padding: 100px 20px 40px;
+  text-align: center;
+}
+
+.footer__line1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0.5rem;
+}
+
+.footer__line2 {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 17px;
+  color: var(--text-on-color);
+  opacity: 0.85;
+  margin-bottom: 3rem;
+}
+
+.footer__by {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-on-color);
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+}
+
+.footer__name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer__role {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-on-color);
+  opacity: 0.6;
+  margin-bottom: 3rem;
+}
+
+.footer__donate {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-on-color);
+  opacity: 0.5;
+  border: 1px solid var(--text-on-color);
+  padding: 14px 36px;
+  margin-bottom: 3.5rem;
+  cursor: not-allowed;
+}
+
+.footer__copyright {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--text-on-color);
+  opacity: 0.4;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 72px 20px 32px;
+  }
+
+  .footer__line1 {
+    font-size: 24px;
+  }
+
+  .footer__line2 {
+    font-size: 15px;
+  }
+}

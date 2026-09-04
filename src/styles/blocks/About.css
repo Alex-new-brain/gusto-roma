@@ -1,0 +1,117 @@
+.about {
+  /* No padding — photos run edge-to-edge. */
+}
+
+.about-photo-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-photo {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* First photo (behind the bar) — show face and hands. */
+.about-photo:first-of-type {
+  object-position: center 30%;
+}
+
+/* Second photo (at the fountain) — show both people centered. */
+.about-photo-wrapper:last-child .about-photo {
+  object-position: center 20%;
+}
+
+.about-photo-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 40%;
+  pointer-events: none;
+}
+
+.about-photo-overlay--bottom {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+}
+
+.about-photo-overlay--top {
+  top: 0;
+  background: linear-gradient(to top, transparent, var(--bg));
+}
+
+.about-content {
+  background: var(--bg);
+  text-align: center;
+  padding: 60px 20px 80px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.about-eyebrow {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 24px;
+}
+
+.about-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 44px);
+  color: var(--text);
+  margin: 0 0 8px;
+}
+
+.about-role {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-soft);
+  letter-spacing: 1px;
+  margin: 0 0 28px;
+}
+
+.about-bio {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-soft);
+  margin: 0 0 32px;
+}
+
+.about-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 8px;
+}
+
+.about-instagram:hover {
+  color: var(--text);
+  transform: scale(1.1);
+}
+
+.about-instagram svg {
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 768px) {
+  .about-photo {
+    height: 45vh;
+  }
+
+  .about-content {
+    padding: 48px 20px 60px;
+  }
+}

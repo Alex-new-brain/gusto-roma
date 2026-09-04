@@ -1,0 +1,182 @@
+.collections-wrapper {
+  position: relative;
+}
+
+.collection-fullscreen {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+  will-change: transform;
+}
+
+.collections-wrapper > section:nth-child(1) {
+  z-index: 1;
+}
+.collections-wrapper > section:nth-child(2) {
+  z-index: 2;
+}
+.collections-wrapper > section:nth-child(3) {
+  z-index: 3;
+}
+.collections-wrapper > section:nth-child(4) {
+  z-index: 4;
+}
+
+.collection-fullscreen__inner {
+  max-width: 640px;
+}
+
+.collection-fullscreen__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(50px, 10vw, 120px);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.collection-fullscreen__full-name {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.collection-fullscreen__count {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.collection-fullscreen__tagline {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.collection-fullscreen__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collection-fullscreen__map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border: 1px solid var(--section-fg);
+  color: var(--section-fg);
+  padding: 12px 24px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.collection-fullscreen__map-btn:hover {
+  background: var(--section-fg);
+  color: var(--section-bg);
+}
+
+.collection-fullscreen__browse-btn {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--section-fg);
+  padding: 12px 4px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.collection-fullscreen__browse-btn:hover {
+  border-color: currentColor;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .collection-fullscreen {
+    padding: 3rem 1.25rem;
+  }
+
+  .collection-fullscreen__tagline {
+    font-size: 16px;
+  }
+
+  .collection-fullscreen__actions {
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+
+/* Breadcrumb strips — each appears individually, the moment its own collection
+   section has been scrolled past, and disappears again in reverse order. */
+
+.collection-breadcrumbs {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb-strip {
+  height: 14px;
+  cursor: pointer;
+  transition: height 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: stripSlideIn 0.4s ease;
+}
+
+@keyframes stripSlideIn {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 14px;
+    opacity: 1;
+  }
+}
+
+.breadcrumb-strip:hover {
+  height: 48px;
+}
+
+.breadcrumb-strip span {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.breadcrumb-strip:hover span {
+  opacity: 1;
+}

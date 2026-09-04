@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Base */
+  --bg: #faf6f0;
+  --text: #2c1810;
+  --text-soft: #6b5b4e;
+  --text-on-color: #f5edda;
+  --border: #ddd5c8;
+
+  /* 4 collection colors */
+  --color-eat: #7a7b42;
+  --color-hidden: #c9a043;
+  --color-drink: #b8ccc5;
+  --color-feel: #9e4b32;
+
+  /* Darkened text-safe variants of --color-hidden / --color-drink,
+     which are too light to use as text at full opacity */
+  --color-hidden-text: #7a5d1a;
+  --color-drink-text: #4a6358;
+
+  /* UI */
+  --accent: #9e4b32;
+  --accent-soft: rgba(158, 75, 50, 0.15);
+  --surface: #ffffff;
+  --surface-hover: #f5f0e8;
+  --gold: #c9a043;
+  --nav-bg: rgba(250, 246, 240, 0.92);
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Montserrat', -apple-system, sans-serif;
+
+  --content-max-width: 1200px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
