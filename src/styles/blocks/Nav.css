@@ -1,7 +1,7 @@
 .nav {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 160;
   background: var(--nav-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -132,7 +132,7 @@
   position: fixed;
   inset: 0;
   z-index: 150;
-  background: var(--bg);
+  background: var(--color-feel);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +152,7 @@
   font-family: var(--font-display);
   font-weight: 400;
   font-size: clamp(32px, 6vw, 48px);
-  color: var(--text-soft);
+  color: rgba(245, 237, 218, 0.6);
   padding: 16px 0;
   cursor: pointer;
   background: none;
@@ -164,7 +164,7 @@
 }
 
 .menu-item:hover {
-  color: var(--text);
+  color: #f5edda;
   letter-spacing: 3px;
 }
 

@@ -142,13 +142,13 @@
 }
 
 .breadcrumb-strip {
-  height: 14px;
+  height: 40px;
   cursor: pointer;
-  transition: height 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  transition: opacity 0.3s ease;
   animation: stripSlideIn 0.4s ease;
 }
 
@@ -158,22 +158,18 @@
     opacity: 0;
   }
   to {
-    height: 14px;
+    height: 40px;
     opacity: 1;
   }
 }
 
-.breadcrumb-strip:hover {
-  height: 48px;
-}
-
 .breadcrumb-strip span {
   font-family: var(--font-body);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  opacity: 0;
+  opacity: 0.7;
   transition: opacity 0.3s ease;
 }
 

@@ -109,6 +109,7 @@ function CollectionBreadcrumbs({ visibleStrips }: { visibleStrips: CollectionId[
 function Collections() {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const [visibleStrips, setVisibleStrips] = useState<CollectionId[]>([]);
+  const [hideForExplore, setHideForExplore] = useState(false);
 
   // Scale down each section slightly as the next one covers it.
   useEffect(() => {
@@ -162,6 +163,17 @@ function Collections() {
         if (progress >= (i + 1) * vh) strips.push(c.id);
       });
       setVisibleStrips(strips);
+
+      // Hide the breadcrumbs once Explore covers at least half of the screen;
+      // they reappear once the user scrolls back up past that point. Measured
+      // against the viewport height, not Explore's own (much taller) height.
+      const exploreEl = document.getElementById('explore');
+      if (exploreEl) {
+        const r = exploreEl.getBoundingClientRect();
+        const visibleHeight = Math.min(r.bottom, vh) - Math.max(r.top, 0);
+        const visibleRatio = visibleHeight / vh;
+        setHideForExplore(visibleRatio >= 0.5);
+      }
     }
 
     function onScroll() {
@@ -189,7 +201,7 @@ function Collections() {
           <CollectionSection key={c.id} collection={c} />
         ))}
       </div>
-      <CollectionBreadcrumbs visibleStrips={visibleStrips} />
+      <CollectionBreadcrumbs visibleStrips={hideForExplore ? [] : visibleStrips} />
     </>
   );
 }
