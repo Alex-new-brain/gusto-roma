@@ -81,7 +81,12 @@ export type MoodId =
   | 'secret'
   | 'budget'
   | 'music'
-  | 'special';
+  | 'special'
+  | 'eat_classic'
+  | 'eat_different'
+  | 'eat_cheap'
+  | 'good_bar'
+  | 'culture';
 
 export interface Mood {
   id: MoodId;

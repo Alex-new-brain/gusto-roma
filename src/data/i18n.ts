@@ -54,7 +54,23 @@ export type TranslationKey =
   | 'footer_role'
   | 'footer_donate'
   | 'showing_count'
-  | 'show_more';
+  | 'show_more'
+  | 'mood_step1_title'
+  | 'mood_eat'
+  | 'mood_drink'
+  | 'mood_experience'
+  | 'mood_step2_eat'
+  | 'mood_classic'
+  | 'mood_different'
+  | 'mood_cheap'
+  | 'mood_step2_drink'
+  | 'mood_cocktails'
+  | 'mood_view'
+  | 'mood_good_bar'
+  | 'mood_step2_exp'
+  | 'mood_music'
+  | 'mood_culture'
+  | 'mood_surprise';
 
 export const translations: Record<Lang, Record<TranslationKey, string>> = {
   en: {
@@ -114,6 +130,22 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     footer_donate: 'Support this guide',
     showing_count: '{shown} of {total} places',
     show_more: 'Show more',
+    mood_step1_title: 'Tonight, you want to...',
+    mood_eat: 'Eat',
+    mood_drink: 'Drink',
+    mood_experience: 'Experience',
+    mood_step2_eat: "What's the mood?",
+    mood_classic: 'Something classic',
+    mood_different: 'Something different',
+    mood_cheap: 'Keep it cheap',
+    mood_step2_drink: 'What are you after?',
+    mood_cocktails: 'Cocktails & secrets',
+    mood_view: 'A view',
+    mood_good_bar: 'Just a good bar',
+    mood_step2_exp: 'What kind?',
+    mood_music: 'Music & nightlife',
+    mood_culture: 'Culture',
+    mood_surprise: 'Surprise me',
   },
   ru: {
     nav_home: 'Главная',
@@ -172,6 +204,22 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     footer_donate: 'Поддержать гид',
     showing_count: '{shown} из {total} мест',
     show_more: 'Показать ещё',
+    mood_step1_title: 'Сегодня вечером хочется...',
+    mood_eat: 'Поесть',
+    mood_drink: 'Выпить',
+    mood_experience: 'Почувствовать',
+    mood_step2_eat: 'Какое настроение?',
+    mood_classic: 'Что-то классическое',
+    mood_different: 'Что-то необычное',
+    mood_cheap: 'Бюджетно',
+    mood_step2_drink: 'Чего хочется?',
+    mood_cocktails: 'Коктейли и секреты',
+    mood_view: 'Красивый вид',
+    mood_good_bar: 'Просто хороший бар',
+    mood_step2_exp: 'Какого рода?',
+    mood_music: 'Музыка и ночная жизнь',
+    mood_culture: 'Культура',
+    mood_surprise: 'Удиви меня',
   },
   it: {
     nav_home: 'Home',
@@ -230,6 +278,22 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     footer_donate: 'Supporta la guida',
     showing_count: '{shown} di {total} posti',
     show_more: 'Mostra altri',
+    mood_step1_title: 'Stasera, vuoi...',
+    mood_eat: 'Mangiare',
+    mood_drink: 'Bere',
+    mood_experience: 'Vivere',
+    mood_step2_eat: 'Che atmosfera?',
+    mood_classic: 'Qualcosa di classico',
+    mood_different: 'Qualcosa di diverso',
+    mood_cheap: 'Spendere poco',
+    mood_step2_drink: 'Cosa cerchi?',
+    mood_cocktails: 'Cocktail & segreti',
+    mood_view: 'Una vista',
+    mood_good_bar: 'Solo un buon bar',
+    mood_step2_exp: 'Di che tipo?',
+    mood_music: 'Musica & vita notturna',
+    mood_culture: 'Cultura',
+    mood_surprise: 'Sorprendimi',
   },
   ua: {
     nav_home: 'Головна',
@@ -288,5 +352,21 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     footer_donate: 'Підтримати гід',
     showing_count: '{shown} з {total} місць',
     show_more: 'Показати ще',
+    mood_step1_title: 'Сьогодні ввечері хочеться...',
+    mood_eat: 'Поїсти',
+    mood_drink: 'Випити',
+    mood_experience: 'Відчути',
+    mood_step2_eat: 'Який настрій?',
+    mood_classic: 'Щось класичне',
+    mood_different: 'Щось незвичне',
+    mood_cheap: 'Бюджетно',
+    mood_step2_drink: 'Чого хочеться?',
+    mood_cocktails: 'Коктейлі та секрети',
+    mood_view: 'Гарний вид',
+    mood_good_bar: 'Просто гарний бар',
+    mood_step2_exp: 'Якого роду?',
+    mood_music: 'Музика та нічне життя',
+    mood_culture: 'Культура',
+    mood_surprise: 'Здивуй мене',
   },
 };
