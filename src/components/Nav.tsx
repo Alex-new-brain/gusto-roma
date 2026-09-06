@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLang } from '../hooks/useLang';
 import { scrollToElement, scrollToTop } from '../lib/lenis';
-import { translations, type TranslationKey } from '../data/i18n';
+import type { TranslationKey } from '../data/i18n';
 import type { Lang } from '../types';
 import '../styles/blocks/Nav.css';
 
@@ -18,19 +18,20 @@ const MENU_ITEMS: { id: string; labelKey: TranslationKey; offset?: number }[] = 
 
 function Nav() {
   const { t, lang, setLang } = useLang();
-  const [isLangOpen, setIsLangOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (!langOpen) return;
     function handleClickOutside(e: MouseEvent) {
       if (langRef.current && !langRef.current.contains(e.target as Node)) {
-        setIsLangOpen(false);
+        setLangOpen(false);
       }
     }
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [langOpen]);
 
   useEffect(() => {
     function handleEscape(e: KeyboardEvent) {
@@ -75,21 +76,28 @@ function Nav() {
             </button>
 
             <div className="lang-switcher" ref={langRef}>
-              <button className="lang-current" onClick={() => setIsLangOpen((v) => !v)}>
-                {lang.toUpperCase()} ▾
+              <button
+                className="lang-trigger"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setLangOpen((v) => !v);
+                }}
+              >
+                {lang.toUpperCase()}
               </button>
-              {isLangOpen && (
-                <div className="lang-dropdown">
-                  {LANG_ORDER.map((code) => (
+
+              {langOpen && (
+                <div className="lang-popover">
+                  {LANG_ORDER.filter((code) => code !== lang).map((code) => (
                     <button
                       key={code}
-                      className={`lang-option${code === lang ? ' active' : ''}`}
+                      className="lang-popover-item"
                       onClick={() => {
                         setLang(code);
-                        setIsLangOpen(false);
+                        setLangOpen(false);
                       }}
                     >
-                      {translations[code].lang_label}
+                      {code.toUpperCase()}
                     </button>
                   ))}
                 </div>

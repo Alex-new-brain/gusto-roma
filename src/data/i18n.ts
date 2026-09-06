@@ -22,6 +22,7 @@ export type TranslationKey =
   | 'curator_eyebrow'
   | 'curator_name'
   | 'curator_role'
+  | 'curator_fact'
   | 'curator_bio'
   | 'collections_title'
   | 'places_label'
@@ -94,8 +95,9 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     why_p3:
       "It's a collection of places that made someone who works in hospitality stop, look around and save them.",
     curator_eyebrow: 'Meet the curator',
-    curator_name: 'Eugene',
-    curator_role: 'Bartender · Years of experience · Rome',
+    curator_name: 'Eugene Husiev',
+    curator_role: 'Senior Bartender · Mixologist · Rome',
+    curator_fact: '10+ years in hospitality · 5-star hotels · 50 Best Bars',
     curator_bio:
       'Years behind the bar, working with guests, drinks and restaurants give you a different eye for places. Service. Atmosphere. People. Details. The kind of experience that turns into recommendations worth trusting.',
     collections_title: 'Four ways to experience Rome',
@@ -168,8 +170,9 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     why_p3:
       'Это коллекция мест, которые заставили человека из мира hospitality остановиться, оглянуться и сохранить их для себя.',
     curator_eyebrow: 'Знакомьтесь с автором',
-    curator_name: 'Eugene',
-    curator_role: 'Бартендер · Годы опыта · Рим',
+    curator_name: 'Eugene Husiev',
+    curator_role: 'Старший бартендер · Миксолог · Рим',
+    curator_fact: '10+ лет в hospitality · 5-звёздочные отели · 50 Best Bars',
     curator_bio:
       'Годы за баром, работа с гостями, напитками и ресторанами дают особый взгляд на места. Сервис. Атмосфера. Люди. Детали. Та самая насмотренность, которая превращается в рекомендации, которым можно доверять.',
     collections_title: 'Четыре способа узнать Рим',
@@ -242,8 +245,9 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     why_p3:
       "È una collezione di posti che hanno fatto fermare, guardarsi intorno e salvarli a qualcuno che lavora nell'ospitalità.",
     curator_eyebrow: "L'autore",
-    curator_name: 'Eugene',
-    curator_role: 'Bartender · Anni di esperienza · Roma',
+    curator_name: 'Eugene Husiev',
+    curator_role: 'Senior Bartender · Mixologist · Roma',
+    curator_fact: "10+ anni nell'ospitalità · hotel 5 stelle · 50 Best Bars",
     curator_bio:
       "Anni dietro al bancone, lavorando con ospiti, drink e ristoranti, danno uno sguardo diverso sui posti. Servizio. Atmosfera. Persone. Dettagli. L'esperienza che si trasforma in raccomandazioni di cui fidarsi.",
     collections_title: 'Quattro modi per vivere Roma',
@@ -316,8 +320,9 @@ export const translations: Record<Lang, Record<TranslationKey, string>> = {
     why_p3:
       'Це колекція місць, які змусили людину зі світу hospitality зупинитися, озирнутися та зберегти їх для себе.',
     curator_eyebrow: 'Знайомтесь з автором',
-    curator_name: 'Eugene',
-    curator_role: 'Бартендер · Роки досвіду · Рим',
+    curator_name: 'Eugene Husiev',
+    curator_role: 'Старший бартендер · Міксолог · Рим',
+    curator_fact: '10+ років у hospitality · 5-зіркові готелі · 50 Best Bars',
     curator_bio:
       "Роки за баром, робота з гостями, напоями та ресторанами дають особливий погляд на місця. Сервіс. Атмосфера. Люди. Деталі. Та сама насмотреність, яка перетворюється на рекомендації, яким можна довіряти.",
     collections_title: 'Чотири способи пізнати Рим',
