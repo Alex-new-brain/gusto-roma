@@ -85,6 +85,28 @@ function CollectionSection({ collection }: { collection: CollectionMeta }) {
   );
 }
 
+// Breadcrumbs scroll to these instead of the sections themselves: once scrolled
+// past, all `.collection-fullscreen` sections report an identical
+// getBoundingClientRect() (an artifact of their shared position:sticky stacking +
+// the GSAP scale transform), so scrollTo(section) always lands on the same one.
+// These anchors sit outside that stack — appended after the sections so the
+// existing `.collections-wrapper > section:nth-child(n)` z-index rules keep
+// matching the right elements — each positioned at its section's own natural
+// (unstuck) offset, which stays accurate regardless of scroll position.
+function CollectionAnchors() {
+  return (
+    <>
+      {collections.map((c, i) => (
+        <div
+          key={c.id}
+          id={`anchor-${c.id}`}
+          style={{ position: 'absolute', top: `${i * 100}vh`, left: 0 }}
+        />
+      ))}
+    </>
+  );
+}
+
 function CollectionBreadcrumbs({ visibleStrips }: { visibleStrips: CollectionId[] }) {
   const { lang } = useLang();
 
@@ -97,7 +119,7 @@ function CollectionBreadcrumbs({ visibleStrips }: { visibleStrips: CollectionId[
             key={c.id}
             className="breadcrumb-strip"
             style={{ background: BG_VAR[c.id], color: FG_VAR[c.id] }}
-            onClick={() => scrollToElement(c.id)}
+            onClick={() => scrollToElement(`anchor-${c.id}`)}
           >
             <span>{c.name[lang]}</span>
           </button>
@@ -200,6 +222,7 @@ function Collections() {
         {collections.map((c) => (
           <CollectionSection key={c.id} collection={c} />
         ))}
+        <CollectionAnchors />
       </div>
       <CollectionBreadcrumbs visibleStrips={hideForExplore ? [] : visibleStrips} />
     </>
